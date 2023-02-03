@@ -27,7 +27,7 @@ function Contact() {
               name="message"
               placeholder="Message"
               rows="10"
-              className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none">
+              className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none"
             ></textarea>
             <button 
               type="button"
