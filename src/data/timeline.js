@@ -1,4 +1,4 @@
-export default [
+export const timelinedata = [
   {
     year: 'Today',
     title: '',

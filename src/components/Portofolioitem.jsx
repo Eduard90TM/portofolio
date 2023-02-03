@@ -13,8 +13,8 @@ function Portofolioitem({ title, imgUrl, stack, link }) {
           {title}
         </h3>
         <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm">
-          {stack.map((item) => (
-            <span className="inline-bloc px-2 py-1 font-semibold border-2 border-stone-900 rounded-md">
+          {stack.map((item, i) => (
+            <span className="inline-bloc px-2 py-1 font-semibold border-2 border-stone-900 rounded-md" key={i}>
               {item}
             </span>
           ))}
